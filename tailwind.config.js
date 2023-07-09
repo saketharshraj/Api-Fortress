@@ -29,6 +29,10 @@ module.exports = {
         'light-gold': '#f5bc51',
         'dark-gold': '#533519',
       },
+      backgroundColor: {
+        ...colors,
+        'light-golden': "#f5bc51"
+      }
     },
   },
   plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
