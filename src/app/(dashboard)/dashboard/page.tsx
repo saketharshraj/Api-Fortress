@@ -8,8 +8,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 export const metadata: Metadata = {
-  title: 'Similarity API | Dashboard',
-  description: 'Free & open-source text similarity API',
+  title: 'API Fortress | Dashboard',
+  description: 'Protected APIs',
 };
 
 const page = async () => {

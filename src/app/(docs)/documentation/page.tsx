@@ -7,8 +7,8 @@ import DocumentationTabs from '@/components/DocumentationTabs';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Similarity API | Documentation',
-  description: 'Free & open-source text similarity API',
+  title: 'API Fortress | Documentation',
+  description: 'Protected APIs',
 };
 
 const page: FC = () => {
