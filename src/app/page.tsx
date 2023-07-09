@@ -3,14 +3,14 @@ import Link from 'next/link';
 import LargeHeading from '@/components/ui/LargeHeading';
 import Paragraph from '@/components/ui/Paragraph';
 import LottiePlayer from '@/components/LottiePlayer';
-import * as example1 from '@/components/lottieExample1.json';
+import * as animation_data from '@/components/lottieExample1.json';
 
 import type { Metadata } from 'next';
 import Button from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Similarity API | Home',
-  description: 'Free & open-source text similarity API',
+  title: 'API Fortress | Home',
+  description: 'Protected APIs',
 };
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
           </Link>
           <div className="relative w-full max-w-lg lg:max-w-3xl lg:left-1/2  aspect-square lg:absolute flex flex-col justify-center items-center">
             <LottiePlayer
-              animationData={example1}
+              animationData={animation_data}
               style={{
                 width: '70%',
                 height: '70%',
