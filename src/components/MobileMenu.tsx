@@ -14,6 +14,7 @@ import {
   DropdownMenuTrigger,
 } from '@/ui/DropDownMenu';
 import { toast } from './ui/Toast';
+import Icons from './Icons';
 
 const MobileMenu = () => {
   const { data: session } = useSession();
@@ -34,12 +35,12 @@ const MobileMenu = () => {
   };
 
   return (
-    <nav className="md:hidden fixed z-50 bottom-20 right-0 left-0 flex justify-center">
+    <nav className="md:hidden fixed z-50 bottom-5 right-0 left-0 flex justify-start">
       <div className="shadow-2xl rounded-md outline outline-2 outline-white dark:outline-slate-900">
         <DropdownMenu open={open} onOpenChange={setOpen}>
           <DropdownMenuTrigger asChild onClick={() => setOpen((prev) => !prev)}>
-            <Button variant="outline" size="lg">
-              Menu
+            <Button variant="ghost" size="lg">
+              <Icons.AlignJustify className="rotate-0 scale-100 transition-all" />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-56">
