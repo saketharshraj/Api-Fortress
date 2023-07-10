@@ -39,7 +39,7 @@ const MobileMenu = () => {
       <div className="shadow-2xl rounded-md outline outline-2 outline-white dark:outline-slate-900">
         <DropdownMenu open={open} onOpenChange={setOpen}>
           <DropdownMenuTrigger asChild onClick={() => setOpen((prev) => !prev)}>
-            <Button variant="ghost" size="lg">
+            <Button variant="link" size="lg">
               <Icons.AlignJustify className="rotate-0 scale-100 transition-all" />
             </Button>
           </DropdownMenuTrigger>
